@@ -65,3 +65,4 @@ E:\Bohorquez_Romero_P4\obj\Debug\net8.0-windows\refint\GestorProductosWPF.dll
 E:\Bohorquez_Romero_P4\obj\Debug\net8.0-windows\GestorProductosWPF.pdb
 E:\Bohorquez_Romero_P4\obj\Debug\net8.0-windows\GestorProductosWPF.genruntimeconfig.cache
 E:\Bohorquez_Romero_P4\obj\Debug\net8.0-windows\ref\GestorProductosWPF.dll
+E:\Bohorquez_Romero_P4\obj\Debug\net8.0-windows\GestorProductosWPF.sourcelink.json

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "E:\\Bohorquez_Romero_P4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3002472D-F456-42C3-928B-AB7F83A8F403}|GestorProductosWPF.csproj|e:\\bohorquez_romero_p4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3002472D-F456-42C3-928B-AB7F83A8F403}|GestorProductosWPF.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3002472D-F456-42C3-928B-AB7F83A8F403}|GestorProductosWPF.csproj|e:\\bohorquez_romero_p4\\agregarproductowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3002472D-F456-42C3-928B-AB7F83A8F403}|GestorProductosWPF.csproj|solutionrelative:agregarproductowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3002472D-F456-42C3-928B-AB7F83A8F403}|GestorProductosWPF.csproj|e:\\bohorquez_romero_p4\\agregarproductowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3002472D-F456-42C3-928B-AB7F83A8F403}|GestorProductosWPF.csproj|solutionrelative:agregarproductowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3002472D-F456-42C3-928B-AB7F83A8F403}|GestorProductosWPF.csproj|e:\\bohorquez_romero_p4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3002472D-F456-42C3-928B-AB7F83A8F403}|GestorProductosWPF.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3002472D-F456-42C3-928B-AB7F83A8F403}|GestorProductosWPF.csproj|e:\\bohorquez_romero_p4\\agregarproductowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3002472D-F456-42C3-928B-AB7F83A8F403}|GestorProductosWPF.csproj|solutionrelative:agregarproductowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3002472D-F456-42C3-928B-AB7F83A8F403}|GestorProductosWPF.csproj|e:\\bohorquez_romero_p4\\agregarproductowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3002472D-F456-42C3-928B-AB7F83A8F403}|GestorProductosWPF.csproj|solutionrelative:agregarproductowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3002472D-F456-42C3-928B-AB7F83A8F403}|GestorProductosWPF.csproj|e:\\bohorquez_romero_p4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3002472D-F456-42C3-928B-AB7F83A8F403}|GestorProductosWPF.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3002472D-F456-42C3-928B-AB7F83A8F403}|GestorProductosWPF.csproj|e:\\bohorquez_romero_p4\\p3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +42,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AgregarProductoWindow.xaml",
+              "DocumentMoniker": "E:\\Bohorquez_Romero_P4\\AgregarProductoWindow.xaml",
+              "RelativeDocumentMoniker": "AgregarProductoWindow.xaml",
+              "ToolTip": "E:\\Bohorquez_Romero_P4\\AgregarProductoWindow.xaml",
+              "RelativeToolTip": "AgregarProductoWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-27T01:42:54.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\Bohorquez_Romero_P4\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "E:\\Bohorquez_Romero_P4\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAAAG8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T01:42:54.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AgregarProductoWindow.xaml.cs",
+              "DocumentMoniker": "E:\\Bohorquez_Romero_P4\\AgregarProductoWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AgregarProductoWindow.xaml.cs",
+              "ToolTip": "E:\\Bohorquez_Romero_P4\\AgregarProductoWindow.xaml.cs",
+              "RelativeToolTip": "AgregarProductoWindow.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T01:42:53.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "E:\\Bohorquez_Romero_P4\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -54,50 +92,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "E:\\Bohorquez_Romero_P4\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "E:\\Bohorquez_Romero_P4\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAADwv4sAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T01:42:54.11Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AgregarProductoWindow.xaml",
-              "DocumentMoniker": "E:\\Bohorquez_Romero_P4\\AgregarProductoWindow.xaml",
-              "RelativeDocumentMoniker": "AgregarProductoWindow.xaml",
-              "ToolTip": "E:\\Bohorquez_Romero_P4\\AgregarProductoWindow.xaml",
-              "RelativeToolTip": "AgregarProductoWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-27T01:42:54.095Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AgregarProductoWindow.xaml.cs",
-              "DocumentMoniker": "E:\\Bohorquez_Romero_P4\\AgregarProductoWindow.xaml.cs",
-              "RelativeDocumentMoniker": "AgregarProductoWindow.xaml.cs",
-              "ToolTip": "E:\\Bohorquez_Romero_P4\\AgregarProductoWindow.xaml.cs",
-              "RelativeToolTip": "AgregarProductoWindow.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T01:42:53.641Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "P3.cs",
               "DocumentMoniker": "E:\\Bohorquez_Romero_P4\\P3.cs",
               "RelativeDocumentMoniker": "P3.cs",
               "ToolTip": "E:\\Bohorquez_Romero_P4\\P3.cs",
               "RelativeToolTip": "P3.cs",
-              "ViewState": "AgIAABgBAAAAAAAAAAAQwDQBAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAADQBAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T01:42:54.032Z"
+              "WhenOpened": "2026-05-27T01:42:54.032Z",
+              "EditorCaption": ""
             }
           ]
         }

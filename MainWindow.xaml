@@ -53,7 +53,7 @@
                         <ColumnDefinition Width="695*"/>
                     </Grid.ColumnDefinitions>
                     <ComboBox x:Name="comboCriterioOrden" HorizontalAlignment="Left" Margin="6,10,0,0" VerticalAlignment="Top" Width="764" Height="41" Grid.Column="1" Grid.ColumnSpan="3"/>
-                    <Button x:Name="btnOrdenar" Content="Ordenar" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Height="37" Width="147" Click="btnOrdenar_Click" Grid.Column="2" Grid.ColumnSpan="2"/>
+                    <Button x:Name="btnOrdenar" Content="Ordenar" HorizontalAlignment="Left" Margin="3,75,0,0" VerticalAlignment="Top" Height="51" Width="163" Click="btnOrdenar_Click" Grid.Column="2" Grid.ColumnSpan="2"/>
                     <ListView x:Name="listViewOrdenados" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="6,154,435,10" Grid.ColumnSpan="3" Grid.Column="1">
                         <ListView.View>
                             <GridView>
