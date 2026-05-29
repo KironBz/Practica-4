@@ -83,7 +83,7 @@ namespace GestorProductosWPF
                 );
         }
 
-        /*              No Se Va Hasta Que Termine     kga             */
+
         private void btnBuscar_Click(object sender, RoutedEventArgs e)
         {
             string criterio = comboTipoBusqueda.SelectedItem.ToString();
