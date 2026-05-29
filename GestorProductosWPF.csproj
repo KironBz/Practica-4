@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Captura de pantalla 2025-09-08 093821.png" />
+    <None Remove="Captura de pantalla 2026-02-20 080844.png" />
+    <None Remove="Rotating_earth_%28large%29.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Captura de pantalla 2025-09-08 093821.png" />
+    <Resource Include="Captura de pantalla 2026-02-20 080844.png" />
+    <Resource Include="Rotating_earth_(large).gif" />
+  </ItemGroup>
+
+</Project>

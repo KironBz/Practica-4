@@ -1,0 +1,72 @@
+﻿<Window x:Class="GestorProductosWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GestorProductosWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,0,-6">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="211*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="39*"/>
+            <ColumnDefinition Width="361*"/>
+        </Grid.ColumnDefinitions>
+        <TabControl Grid.ColumnSpan="2" Margin="0,0,0,10" Grid.RowSpan="2">
+            <TabItem Header="Inventario" Background="{x:Null}">
+                <Grid Background="#FF34CFDA">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="85*"/>
+                        <ColumnDefinition Width="26*"/>
+                        <ColumnDefinition Width="683*"/>
+                    </Grid.ColumnDefinitions>
+                    <DataGrid x:Name="dataGridProductos" d:ItemsSource="{d:SampleData ItemCount=5}" Grid.ColumnSpan="3" Background="#FFE1F3D8"/>
+                    <Button x:Name="btnEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="384,201,0,0" VerticalAlignment="Top" Height="52" Width="156" Click="btnEliminar_Click" Grid.Column="2"/>
+                    <Button x:Name="btnAgregar" Content="Agregar" HorizontalAlignment="Left" Margin="10,201,0,0" VerticalAlignment="Top" Height="57" Width="156" Click="btnAgregar_Click" Grid.Column="2"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Busqueda" Background="{x:Null}">
+                <Grid Background="#FFE1E9F5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="19*"/>
+                        <ColumnDefinition Width="134*"/>
+                        <ColumnDefinition Width="639*"/>
+                    </Grid.ColumnDefinitions>
+                    <ComboBox x:Name="comboTipoBusqueda" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="760" Height="43" Grid.ColumnSpan="3"/>
+                    <TextBox x:Name="txtBusqueda" Grid.Column="1" HorizontalAlignment="Left" Margin="10,82,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="760" Height="43" Grid.ColumnSpan="3"/>
+                    <Button x:Name="btnBuscar" Grid.Column="1" Content="Buscar" HorizontalAlignment="Left" Margin="10,156,0,0" VerticalAlignment="Top" Height="55" Width="171" Click="btnBuscar_Click" Grid.ColumnSpan="3"/>
+                    <TextBlock x:Name="txtResultadoBusqueda" Grid.Column="1" HorizontalAlignment="Left" Margin="10,257,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Height="135" Width="760" Grid.ColumnSpan="3"/>
+                    <ProgressBar x:Name="iteraciones" Grid.Column="3" HorizontalAlignment="Left" Height="35" Margin="75,166,0,0" VerticalAlignment="Top" Width="441" Minimum="0" Maximum="100"/>
+                    <TextBlock x:Name="txtIteraciones" Grid.Column="3" HorizontalAlignment="Left" Margin="533,176,0,0" TextWrapping="Wrap" Text="Iteraciones" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Ordenamiento" Background="{x:Null}">
+                <Grid Background="#FFE1D8E4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="4*"/>
+                        <ColumnDefinition Width="7*"/>
+                        <ColumnDefinition Width="88*"/>
+                        <ColumnDefinition Width="695*"/>
+                    </Grid.ColumnDefinitions>
+                    <ComboBox x:Name="comboCriterioOrden" HorizontalAlignment="Left" Margin="6,10,0,0" VerticalAlignment="Top" Width="764" Height="41" Grid.Column="1" Grid.ColumnSpan="3"/>
+                    <Button x:Name="btnOrdenar" Content="Ordenar" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Height="37" Width="147" Click="btnOrdenar_Click" Grid.Column="2" Grid.ColumnSpan="2"/>
+                    <ListView x:Name="listViewOrdenados" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="6,154,435,10" Grid.ColumnSpan="3" Grid.Column="1">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <Canvas x:Name="canvasGrafico" Margin="334,154,20,10" Grid.Column="3">
+                        <Rectangle Height="136" Canvas.Left="10" Canvas.Top="36" Width="41" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    </Canvas>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
