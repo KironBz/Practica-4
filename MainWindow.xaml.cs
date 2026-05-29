@@ -121,21 +121,6 @@ namespace GestorProductosWPF
             // Actualizar barra de progreso
             iteraciones.Value = iteracionesRealizadas;
 
-            // Calcular iteraciones que faltaron
-            int iteracionesFaltaron;
-            if (esBinaria)
-            {
-                // Para búsqueda binaria, no hay un resto lineal, se puede mostrar 0 o el teórico (log2 total - iteracionesRealizadas)
-                // Por simplicidad, mostramos 0.
-                iteracionesFaltaron = 0;
-            }
-            else
-            {
-                // Búsqueda secuencial: si se encontró, faltaron = total - iteracionesRealizadas
-                // Si no se encontró, iteracionesRealizadas = total, entonces faltaron 0.
-                iteracionesFaltaron = totalProductos - iteracionesRealizadas;
-            }
-
             // Mostrar en txtIteraciones
             txtIteraciones.Text = $"Iteraciones: {iteracionesRealizadas}";
         }
